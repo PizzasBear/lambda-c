@@ -1,0 +1,21 @@
+let true = $a.$b. a
+let false = $a.$b. b
+let not = $a. a false true
+
+print not true
+print not false
+
+let and = $a.$b. a b false
+let or = $a.$b. a true b
+
+print and true true
+print and true false
+print and false true
+print and false false
+
+print or true true
+print or true false
+print or false true
+print or false false
+
+

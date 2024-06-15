@@ -1,0 +1,8 @@
+[package]
+name = "lambda-c"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ahash = "0.8"
+thiserror = "1.0"
